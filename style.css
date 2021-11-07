@@ -9,8 +9,8 @@
   background-repeat: no-repeat;
   text-align: center;
   color: #fff;
-  border-top: 5px solid grey;
-  border-bottom: 5px solid grey;
+  border-top: 5px solid rgb(0, 0, 0);
+  border-bottom: 5px solid rgb(0, 0, 0);
 }
 .overlay {
   position: absolute;
@@ -82,8 +82,8 @@
 .navbar-brand,
 .navbar-toggler,
 .nav-link {
-  font-family: "Lobster", cursive;
-  color: rgb(172, 172, 172) !important;
+  font-family: 'Lobster Two', cursive;
+  color: rgb(255, 255, 255) !important;
   font-size: x-large;
 }
 
@@ -103,22 +103,22 @@ nav {
 }
 
 .carousel-caption {
-  font-family: "Lobster", cursive;
+  font-family: 'Zen Kurenaido', sans-serif;
   font-size: x-large;
 }
 
 .asamalar {
-  color: rgb(220, 93, 65);
+  color: rgb(255, 123, 0);
 }
 
 .asamaheading {
   color: rgb(255, 255, 255);
-  font-family: "Lobster", cursive;
+  font-family: 'Abel', sans-serif;
 }
 
 .asamatext {
-  font-family: "Lobster", cursive;
-  color: rgb(131, 100, 88);
+  font-family: 'Abel', sans-serif;
+  color: rgb(202, 185, 177);
 }
 .video-modal {
   position: relative;
@@ -131,8 +131,8 @@ nav {
   background-repeat: no-repeat;
   text-align: center;
   color: #fff;
-  border-top: 5px solid grey;
-  border-bottom: 5px solid grey;
+  border-top: 5px solid rgb(0, 0, 0);
+  border-bottom: 5px solid rgb(0, 0, 0);
   top: 0;
   left: 0;
   width: 100%;
@@ -152,10 +152,17 @@ nav {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-/* .bg-theme {
-  background-color: black;
+.bg-dark{
+  background-image: url(./photo/main-bg.jpg);
+  background-size: contain;
+  background-attachment: fixed;
 }
-
-body{
-    background-color: black;
-} */
+.bg-opacity{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.border-black{
+  border-color: black !important;
+}
+.katalog{
+  background-color: rgba(0, 0, 0, 0.7);
+}
