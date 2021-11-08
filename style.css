@@ -12,18 +12,7 @@
   border-top: 5px solid rgb(0, 0, 0);
   border-bottom: 5px solid rgb(0, 0, 0);
 }
-#home-content2 {
-  position: relative;
-  background-image: url(./photo/home-content2.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  text-align: center;
-  color: #fff;
-  border-top: 5px solid rgb(0, 0, 0);
-  border-bottom: 5px solid rgb(0, 0, 0);
-}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -99,7 +88,6 @@
 .navbar-toggler,
 .nav-link {
   font-family: 'Lobster Two', cursive;
-  color: rgb(255, 255, 255) !important;
   font-size: x-large;
 }
 

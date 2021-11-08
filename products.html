@@ -17,17 +17,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:wght@700&display=swap"
         rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:wght@700&family=Zen+Kurenaido&display=swap"
         rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 </head>
 
@@ -86,15 +80,15 @@
     </nav>
 
     <!-- ---------------------------------------HOME CONTENT------------------------------------------- -->
-    <div id="home-content2">
+    <div class="container text-light">
         <div class="bg-opacity">
             <div class="container-fluid row">
                 <div class="col">
                     <div class="row align-items-center">
                         <div class=" col ">
-                            <div class="container comment p-5 ">
-                                <h3>ÜRÜNLER</h3><br>
-                                <p>HER BİRİ EŞSİZ, KİŞİYE ÖZEL, DOĞADAN VE HAYATTAN İLHAM ALAN ESERLER</p>
+                            <div class="container text-center zen p-5 ">
+                                <h1>ÜRÜNLER</h1><br>
+                                <h3>HER BİRİ EŞSİZ, KİŞİYE ÖZEL, DOĞADAN VE HAYATTAN İLHAM ALAN ESERLER</h3>
                             </div>
                         </div>
                     </div>
@@ -104,139 +98,152 @@
     </div>
 
 
-    
+
     <!-- --------------------------------------NAV TABS------------------------------------------------- -->
+
     <div class="container mt-5">
         <div class="row">
-            <div class="col-3">
-                <div class="list-group">
-                    <a class="list-group-item">
-                        <ul class="nav-tabs nav-fill nav" href="#bros" data-bs-toggle="tab">Broşlar</ul>
-                    </a>
-                    <a class="list-group-item">
-                        <ul class="nav-tabs nav-fill nav" href="#obje" data-bs-toggle="tab">Objeler</ul>
-                    </a>
-                    <a class="list-group-item">
-                        <ul class="nav-tabs nav-fill nav" href="#tepsi" data-bs-toggle="tab">Çerçeve/Tepsi</ul>
-                    </a>
-                </div>
-
+            <div class=" col-3">
+                <ul class="nav nav-tabs sticky-top flex-column ">
+                    <li class="nav-item nav-fill bg-opacity "><a class="nav-link active" href="#bros"
+                            data-bs-toggle="tab">Broşlar</a>
+                    </li>
+                    <li class="nav-item nav-fill bg-opacity "><a class="nav-link" href="#obje"
+                            data-bs-toggle="tab">Objeler</a></li>
+                    <li class="nav-item nav-fill bg-opacity "><a class="nav-link" href="#tepsi"
+                            data-bs-toggle="tab">Çerçeve vb.</a>
+                    </li>
+                </ul>
             </div>
-            <div class="tab-content bg-opacity rounded col-9">
+            <!-- <ul class="nav nav-pills nav-tabs nav-fill flex-column col-3">
+                <li class="nav-item"><a data-bs-toggle="tab" class="nav-link active" href="#bros">Hogwarts</a> </li>
+                <li class="nav-item"><a data-bs-toggle="tab" class="nav-link" href="#obje">Maltepe</a> </li>
+                <li class="nav-item"><a data-bs-toggle="tab" class="nav-link" href="#tepsi">Harbiye</a> </li>
+            </ul> -->
+            <div class="tab-content bg-opacity rounded p-2 col-9">
                 <div class="tab-pane fade show active" id="bros">
                     <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-4"><img class="w-75 p-3 rounded rounded-pill" src="./photo/rozet10.jpg"
-                                    alt=""></div>
-                                    <div class="col-8 text-light p-5">
+                        <div class="row align-items-center">
+                            <div class="col-4"><img class="w-100 rounded rounded-pill align-center"
+                                    src="./photo/rozet10.jpg" alt=""></div>
+                            <div class="col-8 text-light p-md-5 p-1">
                                 <h6>Kahverengi Kuş Broş</h6>
-                                <p><em>Ceviz ağacından ürettiğim bu broş Lorem ipsum dolor, sit amet consectetur
-                                    adipisicing elit. Non, rem.</em></p>
+                                <p class="d-none d-md-block"><em>Ceviz ağacından ürettiğim bu broş Lorem ipsum dolor,
+                                        sit amet consectetur
+                                        adipisicing elit. Non, rem.</em></p>
                                 <a href="">Satın almak için tıkla...</a>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4"><img class="w-75 p-3 rounded rounded-pill" src="./photo/rozet555.jpg"
-                                alt=""></div>
-                            <div class="col-8 text-light p-5">
+                        </div><br>
+                        <div class="row align-items-center">
+                            <div class="col-4"><img class="w-100 rounded rounded-pill align-center"
+                                    src="./photo/rozet555.jpg" alt=""></div>
+                            <div class="col-8 text-light p-md-5 p-1">
                                 <h6>Tilki Kafası</h6>
-                                <p><em>Bu tilki ve etrafındaki halka  ipsum dolor, sit amet consectetur
+                                <p class="d-none d-md-block"><em>Bu tilki ve etrafındaki halka ipsum dolor, sit amet
+                                        consectetur
                                         adipisicing elit. Non, rem.</em></p>
-                                        <a href="">Satın almak için tıkla...</a>
-                                    </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4"><img class="w-75 p-3 rounded rounded-pill" src="./photo/rozet994.jpg"
-                                    alt=""></div>
-                                    <div class="col-8 text-light p-5">
-                                        <h6>Disney Kedi</h6>
-                                <p><em>Ahşap taban üzerine farklı kumaşlar Lorem ipsum dolor, sit amet consectetur
-                                    adipisicing elit. Non, rem.</em></p>
+                                <a href="">Satın almak için tıkla...</a>
+                            </div>
+                        </div><br>
+                        <div class="row align-items-center">
+                            <div class="col-4"><img class="w-100 rounded rounded-pill align-center"
+                                    src="./photo/rozet994.jpg" alt=""></div>
+                            <div class="col-8 text-light p-md-5 p-1">
+                                <h6>Disney Kedi</h6>
+                                <p class="d-none d-md-block"><em>Ahşap taban üzerine farklı kumaşlar Lorem ipsum dolor,
+                                        sit amet consectetur
+                                        adipisicing elit. Non, rem.</em></p>
                                 <a href="">Satın almak için tıkla...</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                
+
 
                 <div class="tab-pane fade show" id="obje">
                     <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-4"><img class="w-75 p-3 rounded rounded-pill" src="./photo/motif2.jpg"
-                                    alt=""></div>
-                                    <div class="col-8 text-light p-5">
+                        <div class="row align-items-center">
+                            <div class="col-4"><img class="w-100 rounded rounded-pill align-center"
+                                    src="./photo/motif2.jpg" alt=""></div>
+                            <div class="col-8 text-light p-md-5 p-1">
                                 <h6>Karanlık Keçi ve Süpürge</h6>
-                                <p><em>Simsiyah bir atmosfer Lorem ipsum dolor, sit amet consectetur
+                                <p class="d-none d-md-block"><em>Simsiyah bir atmosfer Lorem ipsum dolor, sit amet
+                                        consectetur
                                         adipisicing elit. Non, rem.</em></p>
-                                        <a href="">Satın almak için tıkla...</a>
+                                <a href="">Satın almak için tıkla...</a>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4"><img class="w-75 p-3 rounded rounded-pill" src="./photo/motif7.jpg"
-                                alt=""></div>
-                            <div class="col-8 text-light p-5">
+                        </div><br>
+                        <div class="row align-items-center">
+                            <div class="col-4"><img class="w-100 rounded rounded-pill align-center"
+                                    src="./photo/motif7.jpg" alt=""></div>
+                            <div class="col-8 text-light p-md-5 p-1">
                                 <h6>Asil ve Yaralı Geyik</h6>
-                                <p><em>Bacağındaki ok yarası ile bu geyik ipsum dolor, sit amet consectetur
+                                <p class="d-none d-md-block"><em>Bacağındaki ok yarası ile bu geyik ipsum dolor, sit
+                                        amet consectetur
+                                        adipisicing elit. Non, rem.</em></p>
+                                <a href="">Satın almak için tıkla...</a>
+                            </div>
+                        </div><br>
+                        <div class="row align-items-center">
+                            <div class="col-4"><img class="w-100 rounded rounded-pill align-center"
+                                    src="./photo/motif20.jpg" alt=""></div>
+                            <div class="col-8 text-light p-md-5 p-1">
+                                <h6>Mistik Tavşan</h6>
+                                <p class="d-none d-md-block" <em>Bu ürkütücü tavşanın Lorem ipsum dolor, sit amet
+                                    consectetur
                                     adipisicing elit. Non, rem.</em></p>
                                 <a href="">Satın almak için tıkla...</a>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-4"><img class="w-75 p-3 rounded rounded-pill" src="./photo/motif20.jpg"
-                                    alt=""></div>
-                                    <div class="col-8 text-light p-5">
-                                        <h6>Mistik Tavşan</h6>
-                                        <p><em>Bu ürkütücü tavşanın Lorem ipsum dolor, sit amet consectetur
-                                            adipisicing elit. Non, rem.</em></p>
-                                            <a href="">Satın almak için tıkla...</a>
-                                        </div>
-                                    </div>
                     </div>
                 </div>
 
-                
-                
+
+
                 <div class="tab-pane fade show" id="tepsi">
                     <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-4"><img class="w-75 p-3 rounded rounded-pill" src="./photo/border3.jpg"
-                                alt=""></div>
-                                <div class="col-8 text-light p-5">
-                                    <h6>Kuş Konmuş Ağaç Çerçeve</h6>
-                                    <p><em>Japon kiraz ağacındaki kuşlar Lorem ipsum dolor, sit amet consectetur
+                        <div class="row align-items-center">
+                            <div class="col-4"><img class="w-100 rounded rounded-pill align-center"
+                                    src="./photo/border3.jpg" alt=""></div>
+                            <div class="col-8 text-light p-md-5 p-1">
+                                <h6>Kuş Konmuş Ağaç Çerçeve</h6>
+                                <p class="d-none d-md-block"><em>Japon kiraz ağacındaki kuşlar Lorem ipsum dolor, sit
+                                        amet consectetur
                                         adipisicing elit. Non, rem.</em></p>
-                                        <a href="">Satın almak için tıkla...</a>
-                                    </div>
-                                </div>
-                                <div class="row">
-                            <div class="col-4"><img class="w-75 p-3 rounded rounded-pill" src="./photo/border9.jpg"
-                                alt=""></div>
-                                <div class="col-8 text-light p-5">
-                                    <h6>Gerçekçi At Çizimli Tepsi</h6>
-                                <p><em>Bu tilki ve etrafındaki halka  ipsum dolor, sit amet consectetur
-                                    adipisicing elit. Non, rem.</em></p>
-                                    <a href="">Satın almak için tıkla...</a>
-                                </div>
+                                <a href="">Satın almak için tıkla...</a>
                             </div>
-                        <div class="row">
-                            <div class="col-4"><img class="w-75 p-3 rounded rounded-pill" src="./photo/border1.jpg"
-                                alt=""></div>
-                                <div class="col-8 text-light p-5">
-                                    <h6>Ceylan, Doğa ve Kelebek</h6>
-                                <p><em>Doğadan tatlı bir kesit Lorem ipsum dolor, sit amet consectetur
-                                    adipisicing elit. Non, rem.</em></p>
-                                    <a href="">Satın almak için tıkla...</a>
-                                </div>
+                        </div><br>
+                        <div class="row align-items-center">
+                            <div class="col-4"><img class="w-100 rounded rounded-pill align-center"
+                                    src="./photo/border9.jpg" alt=""></div>
+                            <div class="col-8 text-light p-md-5 p-1">
+                                <h6>Gerçekçi At Çizimli Tepsi</h6>
+                                <p class="d-none d-md-block"><em>Bu tilki ve etrafındaki halka ipsum dolor, sit amet
+                                        consectetur
+                                        adipisicing elit. Non, rem.</em></p>
+                                <a href="">Satın almak için tıkla...</a>
                             </div>
+                        </div><br>
+                        <div class="row align-items-center">
+                            <div class="col-4"><img class="w-100 rounded rounded-pill align-center"
+                                    src="./photo/border1.jpg" alt=""></div>
+                            <div class="col-8 text-light p-md-5 p-1">
+                                <h6>Ceylan, Doğa ve Kelebek</h6>
+                                <p class="d-none d-md-block"><em>Doğadan tatlı bir kesit Lorem ipsum dolor, sit amet
+                                        consectetur
+                                        adipisicing elit. Non, rem.</em></p>
+                                <a href="">Satın almak için tıkla...</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
 
-    
+
+
     <!-- ----------------------------------CARUSEL---------------------------------------------- -->
     <div class="container mt-5">
         <div class="row align-items-center">
@@ -264,12 +271,12 @@
         </div>
     </div>
 
-    
-    
 
-    
-    
-    
+
+
+
+
+
 
 
     <!-- ------------------------SUBSCRIBE--------------------------------- -->
