@@ -102,7 +102,7 @@ nav {
     background-attachment: fixed; */
 }
 
-.carousel-caption {
+.carousel-caption, .comment {
   font-family: 'Zen Kurenaido', sans-serif;
   font-size: x-large;
 }
@@ -168,4 +168,7 @@ nav {
 }
 .zen{
   font-family: 'Zen Kurenaido', sans-serif;
+}
+.comment{
+  min-height: 15em;
 }
