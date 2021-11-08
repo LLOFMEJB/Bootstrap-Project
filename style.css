@@ -107,8 +107,7 @@ nav {
 }
 
 .carousel-caption, .comment {
-  font-family: 'Dongle', sans-serif;
-  font-size: x-large;
+  font-family: 'Glegoo', serif;    font-size: x-large;
 }
 
 .asamalar {
@@ -117,12 +116,10 @@ nav {
 
 .asamaheading {
   color: rgb(255, 255, 255);
-  font-family: 'Dongle', sans-serif;
-}
+  font-family: 'Glegoo', serif;}
 
 .asamatext {
-  font-family: 'Dongle', sans-serif;
-  color: rgb(202, 185, 177);
+  font-family: 'Glegoo', serif;  color: rgb(202, 185, 177);
 }
 .video-modal {
   position: relative;
@@ -171,8 +168,7 @@ nav {
   background-color: rgba(0, 0, 0, 0.7);
 }
 .zen{
-  font-family: 'Dongle', sans-serif;
-}
+  font-family: 'Glegoo', serif;}
 .comment{
   min-height: 15em;
 }
