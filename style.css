@@ -87,7 +87,7 @@
 .navbar-brand,
 .navbar-toggler,
 .nav-link {
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Lobster', cursive;
   font-size: x-large;
 }
 
@@ -107,7 +107,7 @@ nav {
 }
 
 .carousel-caption, .comment {
-  font-family: 'Zen Kurenaido', sans-serif;
+  font-family: 'Dongle', sans-serif;
   font-size: x-large;
 }
 
@@ -117,11 +117,11 @@ nav {
 
 .asamaheading {
   color: rgb(255, 255, 255);
-  font-family: 'Abel', sans-serif;
+  font-family: 'Dongle', sans-serif;
 }
 
 .asamatext {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Dongle', sans-serif;
   color: rgb(202, 185, 177);
 }
 .video-modal {
@@ -171,7 +171,7 @@ nav {
   background-color: rgba(0, 0, 0, 0.7);
 }
 .zen{
-  font-family: 'Zen Kurenaido', sans-serif;
+  font-family: 'Dongle', sans-serif;
 }
 .comment{
   min-height: 15em;
