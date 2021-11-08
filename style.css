@@ -20,6 +20,10 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
 }
+.overlay2 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+}
 
 /* .carousel-row{
     position: relative;
